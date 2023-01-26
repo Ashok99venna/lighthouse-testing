@@ -3,7 +3,7 @@ name: lighthouse testing
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   lighthouse-check:
     runs-on: ubuntu-latest
